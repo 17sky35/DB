@@ -1,0 +1,33 @@
+------------------ 복습 -----------------------
+TCL
+
+COMMIT -> DB에 적용시킴
+ROLLBACK -> DB에 적용안시킴
+SAVEPOINT -> 전부다 롤백이 아니라 일정 트랜잭션까지만
+
+원자성
+일관성
+고립성
+지속성
+
+PL/SQL 문
+SQL문을 응용해서 프로그래밍 언어처럼 사용하는 것
+- 프로시저
+- 함수
+- 패키지
+- 트리거
+
+- IF문
+- FOR,WHILE문
+
+SEQUENCE
+순차적으로 증가하는 정수를 가지는 객체
+
+CREATE SEQUENCE 시퀀스명;
+START WITH 1  --1부터 시작
+INCREMENT BY 1 -- 1씩 증가
+CACHE 20
+
+INDEX(PK)
+
+INSERT INTO USER(SEQ_USER.NEXTVAL);
